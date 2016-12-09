@@ -1,15 +1,16 @@
 package com.example;
 
-import com.example.p.A;
+import com.example.test.A;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class TestController {
 
     @GetMapping(value = "/test")
-    String get(Model model) {
+    String get() {
         return "test";
     }
 

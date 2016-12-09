@@ -1,4 +1,4 @@
-package com.example.p;
+package com.example.test;
 
 public class A {
 

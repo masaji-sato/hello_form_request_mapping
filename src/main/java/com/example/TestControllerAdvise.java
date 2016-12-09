@@ -5,11 +5,8 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.InitBinder;
 
-/**
- * Created by fujioka on 2016/11/01.
- */
 @ControllerAdvice
-class Advise {
+class TestControllerAdvise {
 
 //    private static final String[] allowFields ;
 //    private static final String[] disallowFields;
